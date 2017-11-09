@@ -1,7 +1,7 @@
 'use strict';
 function unitPage() {
 	var childBoxes = document.getElementById('holder').children;
-
+	console.log('hello from master')
 	for (var i = 0; i < childBoxes.length; i++){
 		var itemBox = childBoxes[i];
 
