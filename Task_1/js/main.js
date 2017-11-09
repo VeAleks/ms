@@ -15,6 +15,7 @@ function addClass(elem, cname) {
 	if (elem.className === '') elem.className += cname ;
 	else elem.className += ' ' + cname ;
 }
+console.log('hello from markup')
 
 function hasClass(elem, cname) {
 	var	newArray = elem.className.split(' ');
